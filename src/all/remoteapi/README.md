@@ -1,6 +1,6 @@
 # Remote API extension
 
-A generic Keiyoushi/Tachiyomi extension that delegates all actions to a user-provided HTTP API. Point it at any backend that follows `docs/remote-api-openapi.yaml` (see `server/remoteapi_fastapi` for a drop-in sample).
+A generic Keiyoushi/Tachiyomi extension that delegates all actions to a user-provided HTTP API. Point it at any backend that follows `docs/remote-api-openapi.yaml` (see `server/remoteapi_fastapi` for a drop-in sample and `server/jmcomic_fastapi` for an actual implementation that connects to jmcomic).
 
 ## Configuration inside the app
 
